@@ -12,7 +12,7 @@ window.onload = function() {
 
     const animal = document.querySelector("input#animal").value;
 
-    if (animal === turtle) {
+    if (animal === "turtle") {
       turtle.removeAttribute("class");
     } else {
       whale.removeAttribute("class");
